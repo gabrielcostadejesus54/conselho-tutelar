@@ -1,0 +1,104 @@
+/* configurações gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+p{
+    color: #627084;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+p.small{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+h1{
+    color: white;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+h2{
+    color: #1d2530;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3{
+    color: #1d2530;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+h4{
+    font-size: 16px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* header */
+header{
+    padding: 100px 2%;
+    background-color: #0453AE;
+    text-align: center;
+}
+
+header p {
+    color: white;
+    font-size: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header .cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+header .card i{
+    margin-bottom: 15px;
+}
+
+header .card.denuncia{
+    background-color: #28BD78;
+    color: white;
+}
+
+header .card.orientacoes{
+    background-color: white;
+    color: #0454AE;
+}
+
+header .card.orientacoes p{
+    color: #0454AE;
+}
+
+header .card.emergencia{
+    background-color: #DD7734;
+    color: white;
+}
+
+header .card{
+    padding: 30px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+header .card p{
+    font-size: 14px;
+}
