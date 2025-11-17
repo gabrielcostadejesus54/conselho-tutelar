@@ -3,7 +3,12 @@
     h1{
         font-size: 48px;
     }
-    
+
+    /* sobre */
+
+    .sobre .cards-sobre{
+        flex-wrap: wrap;
+    }
 }
 
 /* 768 */
@@ -25,5 +30,10 @@
 
     header .cards .card{
         width: 100%;
+    }
+
+    /* sobre */
+    .sobre .card-sobre{
+        width: 90%;
     }
 }
