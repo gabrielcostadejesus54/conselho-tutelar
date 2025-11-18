@@ -10,7 +10,6 @@ p{
     color: #627084;
     font-size: 18px;
     line-height: 28px;
-    margin-bottom: 30px;
 }
 
 p.small{
@@ -21,20 +20,17 @@ p.small{
 h1{
     color: white;
     font-size: 60px;
-    margin-bottom: 20px;
 }
 
 h2{
     color: #1d2530;
     font-size: 36px;
     text-align: center;
-    margin-bottom: 20px;
 }
 
 h3{
     color: #1d2530;
     font-size: 18px;
-    margin-bottom: 15px;
 }
 
 h4{
@@ -59,6 +55,7 @@ header p {
     font-size: 20px;
     max-width: 800px;
     margin: 0 auto;
+    margin-top: 20px;
 }
 
 header .cards{
@@ -116,7 +113,7 @@ header .card p{
 
 .sobre .container > p{
     max-width: 800px;
-    margin: 0 auto 30px auto;
+    margin:30px auto;
     text-align: center;
 }
 
@@ -128,7 +125,7 @@ header .card p{
 
 .sobre .card-sobre{
     display: flex;
-    padding: 5px;
+    padding: 20px 5px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -150,4 +147,71 @@ header .card p{
     border-radius: 50%;
     background-color: #E5EEF7;
     color: #0453AE;
+}
+
+/* quando procurar */
+.quando-procurar{
+    padding: 100px 2%;
+    background-color: #F3F5F7;
+}
+
+.quando-procurar .container > p{
+    max-width: 800px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.cards-quando{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+ 
+
+.card-quando{
+    max-width: 344px;
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+.card-quando h3{
+    margin: 10px 0;
+}
+
+.card-quando:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-quando i{
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+
+.quando-emergencia{
+    border-radius: 10px;
+    background-color: #F3E9E1;
+    max-width: 1070px;
+    padding: 30px 20px;
+    margin: 30px auto;
+    border-left: 5px solid #F47B25;
+}
+
+.quando-emergencia div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.quando-emergencia i{
+    font-size: 24px;
+    color: #FCE100;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0);
+}
+
+.quando-emergencia p{
+    margin-top: 20px;
 }
