@@ -215,3 +215,51 @@ header .card p{
 .quando-emergencia p{
     margin-top: 20px;
 }
+
+/* redes de apoio */
+.apoio{
+    padding: 100px 2%;   
+}
+
+.apoio .container > p{
+    max-width: 800px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.cards-apoio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card-apoio{
+    max-width: 344px;
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    transition: box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.card-apoio i{
+    margin-bottom: 15px;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: #E9F8F1;
+    color: #28BD78;
+}
+
+.card-apoio p{
+    text-align: left;
+    margin-top: 10px;
+}
+
+.card-apoio .destaque{
+    color: #0453AE;
+    font-weight: bold;
+}
