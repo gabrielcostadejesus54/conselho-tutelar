@@ -380,3 +380,14 @@ header .card p{
     display: none;
     padding: 0 20px 20px 20px;
 }
+
+footer{
+    background-color: #0453AE;
+    color: white;
+    text-align: center;
+    padding: 20px 2%;
+}
+
+footer p{
+    color: white;
+}
