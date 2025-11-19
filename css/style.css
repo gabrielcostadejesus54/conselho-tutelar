@@ -263,3 +263,88 @@ header .card p{
     color: #0453AE;
     font-weight: bold;
 }
+
+/* materias de apoio */
+.materiais-educativos{
+    padding: 100px 2%;
+    background-color: #F3F5F7;
+}
+
+.materiais-educativos .container > p{
+    max-width: 800px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.cards-materiais{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card-material{
+    max-width: 344px;
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.card-material > p{
+    text-align: left;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 10px 0;
+}
+
+.card-material .btn-download{
+    color: #1d2530;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    width: 100%;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.card-material .btn-download:hover{
+    background-color: #F47B25;
+    color: white;
+}
+
+.card-material .btn-download i{
+    padding-right:15px;
+}
+
+.card-material .box-title{
+    display: flex;
+    align-items:self-start;
+    gap: 10px;
+}
+
+.card-material .box-title i{
+    font-size: 20px;
+    color: #0453AE;
+    background-color: #E5EEF7;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card-material .box-title .titles{
+    text-align: left;
+}
+
+.card-material .box-title .titles p{
+    margin: 5px 0;
+}
+
+.card-material .box-title .titles .blue{
+    color: #0453AE;
+}
+
